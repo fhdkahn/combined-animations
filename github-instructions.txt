@@ -1,0 +1,38 @@
+# How to Push Your Project to GitHub
+
+## 1. Create a New Repository on GitHub
+1. Go to https://github.com/new
+2. Enter a repository name (e.g., "interactive-animations")
+3. Add a description (optional): "Interactive web animations with particle effects and fluid simulation"
+4. Choose "Public" or "Private" visibility
+5. Do NOT initialize with README, .gitignore, or license (we already have these)
+6. Click "Create repository"
+
+## 2. Connect Your Local Repository to GitHub
+After creating the repository, GitHub will show you commands to connect your existing repository.
+Run these commands in your terminal:
+
+```bash
+# Replace YOUR_USERNAME with your GitHub username and REPO_NAME with your repository name
+git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+git branch -M main
+git push -u origin main
+```
+
+## 3. Take a Screenshot for the README
+1. Open combined-animations.html in your browser
+2. Interact with the animation to get a visually appealing state
+3. Take a screenshot
+4. Save it as "screenshot.png" in your project directory
+5. Add and commit the screenshot:
+   ```bash
+   git add screenshot.png
+   git commit -m "Add screenshot of animation"
+   git push
+   ```
+
+## 4. Verify Your Repository
+1. Refresh your GitHub repository page
+2. You should see all your files and the README with your screenshot
+
+Your project is now successfully hosted on GitHub! 
