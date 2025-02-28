@@ -5,8 +5,6 @@ A beautiful interactive web animation featuring two distinct visual effects:
 1. **Cosmic Particle Field** - Interactive particles that respond dramatically to mouse movements
 2. **Liquid Light Waves** - Fluid animation with ripple effects that follow your cursor
 
-*Note: Take a screenshot of the animation in action and save it as "screenshot.png" to display it here.*
-
 ## Features
 
 ### Cosmic Particle Field
